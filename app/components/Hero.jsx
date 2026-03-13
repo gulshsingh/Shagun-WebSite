@@ -298,8 +298,8 @@ export default function Hero() {
         </div>
 
         {/* section 5 */}
-        <div className="grid grid-cols-2 gap-10 items-center">
-          <div className=" p-10">
+        <div className="grid grid-cols-2 gap-40 items-center">
+          <div className=" ">
             <img src="/growth.png" className="rounded-3xl" />
 
 
@@ -312,7 +312,7 @@ export default function Hero() {
           {/* RIGHT CONTENT */}
 
           <div>
-            <h2 className="text-5xl font-semibold leading-tight mb-6">
+            <h2 className="text-5xl font-semibold leading-tight mb-6 ">
               Our{" "}
               <span className="text-[#ff6a2f]">
                 Growth & <br /> Success
@@ -320,7 +320,7 @@ export default function Hero() {
               Story
             </h2>
 
-            <ul className="space-y-4 text-gray-300">
+            <ul className="space-y-4 text-gray-300 ">
               <li>• Thousands of satisfied domestic customers</li>
               <li>• Rapid distributor expansion in regional markets</li>
               <li>• Growing demand in tier-2 & tier-3 cities</li>
@@ -335,9 +335,426 @@ export default function Hero() {
 
 
       {/* section 6 */}
-      <section>
+       <section className="grid grid-cols-3 items-center bg-white rounded-3xl p-12 m-10">
 
-      </section>
+  {/* LEFT SIDE */}
+  <div>
+    <h1 className="text-[48px] font-[500] leading-tight text-black">
+      India’s Smart Family E-Scooter
+    </h1>
+
+    <p className="text-[#818181] font-[300] text-[12px] mt-6 max-w-md">
+      Designed for performance, safety, and smart connectivity.
+      A powerful electric mobility solution built for Indian roads
+      and global performance standards.
+    </p>
+  </div>
+
+
+  {/* CENTER */}
+  <div className="flex justify-center relative">
+
+    <Image
+      src="/scooty.png"
+      width={500}
+      height={300}
+      alt="scooter"
+      className="relative z-10"
+    />
+
+    <div className="absolute flex items-center justify-center">
+      <Image
+        src="/group.png"
+        width={1200}
+        height={800}
+        alt="circle"
+      />
+    </div>
+
+  </div>
+
+
+  {/* RIGHT SIDE */}
+  <div className="flex flex-col items-center gap-6">
+
+    <div className=" p-3 rounded-xl">
+      <Image
+        src="/bg-rem.png"
+        width={150}
+        height={150}
+        alt="thumb"
+      />
+    </div>
+
+    <div className=" p-3 rounded-xl">
+      <Image
+        src="/bg-rem2.png"
+        width={150}
+        height={150}
+        alt="thumb"
+      />
+    </div>
+
+    <p className="text-[#676767] font-[400] text-[10px] text-center max-w-md">
+      Find The Best Deals On Top <br />
+      Conditions Care
+    </p>
+
+    <div>
+      <Image
+        src="/service.png"
+        width={200}
+        height={200}
+        alt="thumb"
+      />
+    </div>
+
+  </div>
+
+</section>
+
+
+{/* section 7 */}
+<section className="bg-[#FFF1F1] rounded-2xl px-10 py-12 grid lg:grid-cols-2 gap-10 items-center m-10">
+
+  {/* Left Content */}
+  <div>
+    <h2 className="text-[52px] font-[500] mb-4 text-black">
+      Why Choose <span className="text-orange-500">Shagun Pro?</span>
+    </h2>
+
+    <p className="text-gray-600 mb-8">
+      Choose Shagun Pro for reliable innovation, trusted performance, and
+      dependable everyday solutions.
+    </p>
+
+    <div className="grid md:grid-cols-2 gap-8">
+
+      {/* Item */}
+      <div className="flex gap-4">
+        <div className="text-orange-500 text-xl"><img src="/orange-icon.png" alt="" /></div>
+        <div>
+          <h4 className="font-semibold text-black">Quality Assured</h4>
+          <p className="text-sm text-gray-900">
+            Consistent standards you can trust
+          </p>
+        </div>
+      </div>
+
+      <div className="flex gap-4">
+        <div className="text-orange-500 text-xl"><img src="/orange-icon.png" alt="" /></div>
+        <div>
+          <h4 className="font-semibold text-black">Smart Technology Integration</h4>
+          <p className="text-sm text-gray-900">
+            Advanced features for smarter living
+          </p>
+        </div>
+      </div>
+
+      <div className="flex gap-4">
+        <div className="text-orange-500 text-xl"><img src="/orange-icon.png" alt="" /></div>
+        <div>
+          <h4 className="font-semibold text-black">Dedicated Customer Support</h4>
+          <p className="text-sm text-gray-900">
+            Always ready to help you
+          </p>
+        </div>
+      </div>
+
+      <div className="flex gap-4">
+        <div className="text-orange-500 text-2xl"><img src="/orange-icon.png" alt="" /></div>
+        <div>
+          <h4 className="font-semibold text-black">Innovation Driven Manufacturing</h4>
+          <p className="text-sm text-gray-900">
+            Built with future-focused technology
+          </p>
+        </div>
+      </div>
+
+      <div className="flex gap-4">
+        <div className="text-orange-500 text-2xl"><img src="/orange-icon.png" alt="" /></div>
+        <div>
+          <h4 className="font-semibold text-black">Nationwide Service Network</h4>
+          <p className="text-sm text-gray-900">
+            Support available across the country
+          </p>
+        </div>
+      </div>
+
+      <div className="flex gap-4">
+        <div className="text-orange-500 text-2xl"><img src="/orange-icon.png" alt="" /></div>
+        <div>
+          <h4 className="font-semibold text-black">Expanding International Reach</h4>
+          <p className="text-sm text-gray-900">
+            Growing presence across global markets
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  {/* Right Image */}
+  <div className="flex justify-center p-0">
+    <div className="bg-orange-500 rounded-2xl p-0">
+      <img
+        src="/why-us.png"
+        alt="why us"
+        className="rounded-lg w-[520px] "
+      />
+    </div>
+  </div>
+
+</section>
+
+
+
+{/* section 8 */}
+
+<section className="relative py-24 bg-black text-white ">
+
+
+  <div className="max-w-7xl mx-auto px-6">
+
+    <div className="flex justify-between items-start mb-16">
+      <h2 className="text-5xl font-semibold">
+        <span className="text-orange-500">Trusted</span> by Our Customers
+      </h2>
+
+      <p className="text-gray-300 max-w-sm italic">
+        Honest feedback from customers who trust and use Shagun Pro
+      </p>
+    </div>
+
+    <div className="grid lg:grid-cols-3 gap-10 items-center">
+
+      {/* card 1 */}
+      <div className="relative">
+
+        <div className="absolute inset-0 bg-orange-500 rounded-[40px] "></div>
+
+        <div className="relative bg-[#0c0c0c] p-10 rounded-[40px] text-center">
+
+          <img
+            src="/avtar.png"
+            className="w-16 h-16 rounded-full mx-auto mb-4"
+          />
+
+          <h3 className="font-semibold text-lg">Hannah Schmitt</h3>
+          <p className="text-sm text-gray-400 mb-6">
+            Working Professional, Delhi
+          </p>
+
+          <p className="text-orange-500 text-2xl">“</p>
+
+          <p className="text-gray-300 text-sm">
+            Smooth acceleration and strong battery backup. Perfect for daily commuting.
+          </p>
+
+        </div>
+      </div>
+
+
+      {/* center card */}
+      <div className="relative">
+
+        <div className="absolute inset-0 bg-orange-500 rounded-[40px] "></div>
+
+        <div className="relative bg-[#0c0c0c] p-12 rounded-[40px] text-center">
+
+          <img
+            src="/avtar.png"
+            className="w-20 h-20 rounded-full mx-auto mb-4"
+          />
+
+          <h3 className="font-semibold text-xl">Hannah Schmitt</h3>
+
+          <p className="text-gray-400 mb-6">
+            Wellness Consultant, Mumbai
+          </p>
+
+          <p className="text-orange-500 text-3xl mb-2">“</p>
+
+          <p className="text-gray-300">
+            The alkaline ionizer completely upgraded our family’s health routine.
+          </p>
+
+        </div>
+      </div>
+
+
+      {/* card 3 */}
+      <div className="relative ">
+
+        <div className="absolute inset-0 bg-orange-500 rounded-[40px] "></div>
+
+        <div className="relative bg-[#0c0c0c] p-10 rounded-[40px] text-center">
+
+          <img
+            src="/avtar.png"
+            className="w-16 h-16 rounded-full mx-auto mb-4"
+          />
+
+          <h3 className="font-semibold text-lg">Hannah Schmitt</h3>
+
+          <p className="text-sm text-gray-400 mb-6">
+            Dairy Farmer, Gujarat
+          </p>
+
+          <p className="text-orange-500 text-2xl">“</p>
+
+          <p className="text-gray-300 text-sm">
+            Milk production increased noticeably after using Milkish feed.
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+{/* section 9 */}
+<section className="bg-black text-white py-5 ">
+  <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16">
+
+    {/* Left Content */}
+    <div className="mt-25">
+      <h2 className="text-5xl font-semibold leading-tight mb-6">
+        Frequently Asked <br /> Question
+      </h2>
+
+      <p className="text-gray-400 max-w-sm">
+        Find quick answers to common questions about our products.
+      </p>
+    </div>
+
+    <div className="bg-[#0c0c0c] rounded-2xl p-8">
+
+      <details className="group border-b border-orange-900 py-6 open:text-orange-500">
+        <summary className="flex justify-between items-center cursor-pointer list-none">
+          Are Shagun Pro products certified?
+          <span className="group-open:rotate-180 transition">⌃</span>
+        </summary>
+        <p className="text-gray-400 mt-4 text-sm">
+          Yes. Our products undergo strict quality and safety testing aligned with industry standards
+        </p>
+      </details>
+
+      <details className="group border-b border-orange-900 py-6">
+        <summary className="flex justify-between items-center cursor-pointer list-none">
+          Do you provide nationwide service?
+          <span className="group-open:rotate-180 transition">⌃</span>
+        </summary>
+      </details>
+
+      <details className="group border-b border-orange-900 py-6">
+        <summary className="flex justify-between items-center cursor-pointer list-none">
+          Is dealership available?
+          <span className="group-open:rotate-180 transition">⌃</span>
+        </summary>
+      </details>
+
+      <details className="group border-b border-orange-900 py-6">
+        <summary className="flex justify-between items-center cursor-pointer list-none">
+          Do you provide installation support?
+          <span className="group-open:rotate-180 transition">⌃</span>
+        </summary>
+      </details>
+
+      <details className="group py-6">
+        <summary className="flex justify-between items-center cursor-pointer list-none">
+          How can I book a demo or test ride?
+          <span className="group-open:rotate-180 transition">⌃</span>
+        </summary>
+      </details>
+
+    </div>
+
+  </div>
+</section>
+
+
+{/* section 10 Footer */}
+
+
+<section className="text-white pt-16 pb-8  ">
+  <div className="max-w-7xl mx-auto px-6 border-t border-white/30 py-5">
+
+    <div className="grid md:grid-cols-4 gap-12">
+
+      <div>
+        <h2 className="text-3xl font-semibold mb-4">ShagunPro</h2>
+
+        <p className="text-sm text-white/80 mb-6">
+          Trusted solutions, innovative products, nationwide support, and reliable service for smarter, better everyday living.
+        </p>
+
+        <div className="flex gap-3">
+          <div className="w-10 h-10 bg-[#444] rounded-full flex items-center justify-center">in</div>
+          <div className="w-10 h-10 bg-[#ff3d00] rounded-full flex items-center justify-center">f</div>
+          <div className="w-10 h-10 bg-[#444] rounded-full flex items-center justify-center">ig</div>
+          <div className="w-10 h-10 bg-[#444] rounded-full flex items-center justify-center">▶</div>
+        </div>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
+
+        <ul className="space-y-3 text-white/80 text-sm">
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Products</li>
+          <li>FAQ</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-lg mb-4">Products</h3>
+
+        <ul className="space-y-3 text-white/80 text-sm">
+          <li>Alkaline Ionizer</li>
+          <li>Family E-Scooter</li>
+          <li>Milkish Animal Feed</li>
+          <li>Smart Switch System</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-lg mb-4">Contact us</h3>
+
+        <div className="flex overflow-hidden rounded-lg">
+          <input
+            type="email"
+            placeholder="Enter email address"
+            className="px-4 py-3 w-full text-black bg-white  outline-none"
+          />
+
+          <button className="bg-[#ff3d00] px-6">
+            send
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <div className="border-t border-white/30 mt-12 pt-6 flex flex-col md:flex-row justify-between text-sm text-white/80">
+
+      <p>© Copyright 2026, All Rights Reserved by Shagun Pro</p>
+
+      <div className="flex gap-6 mt-3 md:mt-0">
+        <span>Privacy Policy</span>
+        <span>Terms & Conditions</span>
+      </div>
+
+    </div>
+
+  </div>
+</section>
     </main>
   );
 }
