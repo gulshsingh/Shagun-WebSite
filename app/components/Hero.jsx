@@ -86,11 +86,11 @@ export default function Hero() {
           </div>
 
           <div className=" p-0 rounded-xl">
-            <Image src="/Rectangle2.png" width={150} height={150} alt="thumb" />
+            <Image src="/bg-rem1.png" width={150} height={150} alt="thumb" />
           </div>
 
           <div className=" p-0 rounded-xl">
-            <Image src="/Rectangle1.png" width={150} height={150} alt="thumb" />
+            <Image src="/bg-rem2.png" width={150} height={150} alt="thumb" />
           </div>
           <p className="text-[#676767] font-[400] text-[10px] max-w-md">
             Find The Best Deals On Top<br></br> Conditions Care
