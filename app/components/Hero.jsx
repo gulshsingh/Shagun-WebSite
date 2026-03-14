@@ -86,7 +86,7 @@ export default function Hero() {
           </div>
 
           <div className=" p-0 rounded-xl">
-            <Image src="/bg-rem1.png" width={150} height={150} alt="thumb" />
+            <Image src="/bg-rem.png" width={150} height={150} alt="thumb" />
           </div>
 
           <div className=" p-0 rounded-xl">
