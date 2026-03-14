@@ -277,22 +277,22 @@ export default function Hero() {
 
         <div className="grid grid-cols-4 gap-6 mb-24">
           <div className="bg-black border border-gray-800 rounded-xl item-center p-6 text-center">
-            <div className="text-2xl mb-3 "><img src="/icon.png" alt="" className="mx-auto w-8 h-8" /></div>
+            <div className="text-2xl mb-3 "><img src="/Icon.png" alt="" className="mx-auto w-8 h-8" /></div>
             <p>Strict Quality Testing</p>
           </div>
 
           <div className="bg-black border border-gray-800 rounded-xl p-6 text-center">
-            <div className="text-2xl mb-3 "><img src="/icon.png" alt=""  className="mx-auto w-8 h-8" /></div>
+            <div className="text-2xl mb-3 "><img src="/Icon.png" alt=""  className="mx-auto w-8 h-8" /></div>
             <p>Certified Manufacturing</p>
           </div>
 
           <div className="bg-black border border-gray-800 rounded-xl p-6 text-center">
-            <div className="text-2xl mb-3 "><img src="/icon.png" alt=""  className="mx-auto w-8 h-8" /></div>
+            <div className="text-2xl mb-3 "><img src="/Icon.png" alt=""  className="mx-auto w-8 h-8" /></div>
             <p>Performance Validation</p>
           </div>
 
           <div className="bg-black border border-gray-800 rounded-xl p-6 text-center">
-            <div className="text-2xl mb-3 "><img src="/icon.png" alt=""  className="mx-auto w-8 h-8" /></div>
+            <div className="text-2xl mb-3 "><img src="/Icon.png" alt=""  className="mx-auto w-8 h-8" /></div>
             <p>Continuous R&D</p>
           </div>
         </div>
